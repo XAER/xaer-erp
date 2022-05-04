@@ -1,0 +1,3 @@
+[submodule "erp-backend"]
+	path = erp-backend
+	url = git@github.com:XAER/erp-backend.git
