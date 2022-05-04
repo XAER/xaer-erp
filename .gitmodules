@@ -1,3 +1,6 @@
 [submodule "erp-backend"]
 	path = erp-backend
 	url = git@github.com:XAER/erp-backend.git
+[submodule "authentication"]
+	path = authentication
+	url = git@github.com:XAER/authentication.git

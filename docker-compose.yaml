@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  erp-backend:
+    build:
+      context: ./erp-backend
+      dockerfile: ./Dockerfile
+    ports:
+      - 9090:9090
+    volumes:
+      - ./erp-backend:/app/
+    env_file:
+      - ./env/back.env
